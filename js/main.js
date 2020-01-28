@@ -10,6 +10,7 @@ $('.DarkMode').click(function () {
     }
 });
 // overflow hidden when click toggler
+var clicks = 0;
 $('.navbar-toggler').click(function () {
     if (clicks == 0) {
         $("html ,body").css('overflow-y', 'hidden');

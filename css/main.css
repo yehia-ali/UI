@@ -13266,6 +13266,10 @@ a:hover {
   color: #ec1c3f;
 }
 
+.navbar-nav .dropdown-menu {
+  text-align: right;
+}
+
 ul.list-unstyled {
   padding: 0 10px;
 }

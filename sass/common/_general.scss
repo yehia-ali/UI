@@ -9,6 +9,12 @@ a {
     }
 }
 
+.navbar-nav {
+    .dropdown-menu {
+        text-align: right;
+    }
+}
+
 ul {
     &.list-unstyled {
         li {
@@ -34,9 +40,12 @@ ul {
                     color: $brand-silver;
                 }
             }
-            &.fa-moon-o,&.fa-bell-o {
+
+            &.fa-moon-o,
+            &.fa-bell-o {
                 color: $brand-silver;
             }
+
             &.fa-sun-o {
                 color: $brand-yellow;
             }
