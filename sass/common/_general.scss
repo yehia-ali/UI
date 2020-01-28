@@ -1,0 +1,45 @@
+a {
+    color: $brand-white;
+    font-size: 16px;
+    transition: color 0.4s ease;
+
+    &:hover {
+        text-decoration: none;
+        color: $brand-crimson;
+    }
+}
+
+ul {
+    &.list-unstyled {
+        li {
+            padding: 0 10px;
+        }
+
+        padding: 0 10px;
+
+        .fa {
+            &.fa-user-circle {
+                font-size: 32px;
+                margin-right: 16px;
+
+                &::before {
+                    color: $brand-silver;
+                }
+            }
+
+            &.fa-chevron-left {
+                font-size: 10px;
+
+                &::before {
+                    color: $brand-silver;
+                }
+            }
+            &.fa-moon-o,&.fa-bell-o {
+                color: $brand-silver;
+            }
+            &.fa-sun-o {
+                color: $brand-yellow;
+            }
+        }
+    }
+}

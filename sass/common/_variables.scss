@@ -1,0 +1,63 @@
+/** Import Bootstrap functions */
+@import "../../node_modules/bootstrap/scss/functions";
+// ======== Grid settings ========
+// $main-sm-columns:       12;
+// $grid-gutter-width: 8.2vw !default;
+
+// $grid-breakpoints: (
+//   xs: 0,
+//   sm: 480px,
+//   md: 768px,
+//   lg: 1200px
+// );
+
+// $container-max-widths: (
+//   sm: 420px,
+//   md: 720px,
+//   lg: 1440px
+// );
+// ======== border-raduis ========
+$primary-radius:       2px;
+// ===== Colors ======
+$brand-black              : #000;
+$brand-white              : #fff;
+$brand-crimson            : #ec1c3f;
+$brand-ocean-green        : #4EB96F;
+$brand-pastel-green       : #14612a;
+$brand-tango              : #EE7F1F;
+$brand-yellow             : #ffeb00;
+$brand-trendy-Pink        : #945BA4;
+$brand-biscay             : #1A375C;
+$brand-shakespeare        : #3B97D2;
+$brand-silver             : #cbcbcb;
+$brand-haiti              : #0E1131;
+$brand-gray               : #8A9BA5;
+
+
+// ==== list with all theme colors to be reused in @each =====
+$theme-color:
+  // color name     	 color brand              text color    	      secondry
+  "black"          	   $brand-black              $brand-white         $brand-white,
+  "white"          	   $brand-white              $brand-black         $brand-white,
+  "crimson"          	 $brand-crimson            $brand-white         $brand-white,
+  "ocean-green"        $brand-ocean-green        $brand-white         $brand-white,
+  "pastel-green"       $brand-pastel-green       $brand-white         $brand-white,
+  "tango"              $brand-tango              $brand-white         $brand-white,
+  "yellow"             $brand-yellow             $brand-white         $brand-white,
+  "trendy-Pink"        $brand-trendy-Pink        $brand-white         $brand-white,
+  "biscay"             $brand-biscay             $brand-white         $brand-white,
+  "shakespeare"        $brand-shakespeare        $brand-white         $brand-white,
+  "silver"             $brand-silver             $brand-white         $brand-white,
+  "haiti"              $brand-haiti              $brand-white         $brand-white,
+  "gray"               $brand-gray               $brand-white         $brand-white;
+
+
+
+//** Global text color on `<body>`.
+$text-color: $brand-black !default;
+
+//** Global textual link color.
+$link-color: $brand-black !default;
+//** Link hover color set via `darken()` function.
+// $link-hover-color : darken($link-color, 15%) !default;
+

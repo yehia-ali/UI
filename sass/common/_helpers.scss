@@ -1,0 +1,15 @@
+.overlay {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: -webkit-linear-gradient(top, rgba($brand-black, 0), rgba($brand-biscay, 0.8));
+  background-image: -moz-linear-gradient(top, rgba($brand-black, 0), rgba($brand-biscay, 0.8));
+  background-image: -o-linear-gradient(top, rgba($brand-black, 0), rgba($brand-biscay, 0.8));
+  background-image: linear-gradient(top, rgba($brand-black, 0), rgba($brand-biscay, 0.8));
+}
+
+.background-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+}

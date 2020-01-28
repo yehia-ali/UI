@@ -1,0 +1,70 @@
+.intro-section {
+    .card-post {
+        background-position: bottom left;
+        transition: all 0.8s ease;
+
+        &:hover {
+            background-position: bottom right;
+        }
+
+        &.large {
+            height: 445px;
+            margin: 2.5px 0;
+            padding: 2vh 4vw;
+        }
+
+        &.small {
+            height: 220px;
+            padding: 0.8vh 0.8vw;
+            margin: 2.5px 0;
+        }
+
+        .card-comment {
+            position: relative;
+            background: rgba($brand-ocean-green, 0.8);
+            padding: 10px 15px;
+
+            &:before {
+                content: "";
+                width: 0px;
+                height: 0px;
+                position: absolute;
+                border-left: 12px solid rgba($brand-ocean-green, 0.8);
+                border-right: 6px solid transparent;
+                border-top: 6px solid rgba($brand-ocean-green, 0.8);
+                border-bottom: 12px solid transparent;
+                left: 32px;
+                bottom: -18px;
+            }
+        }
+
+        .post-category {
+            display: flex;
+            position: absolute;
+            left: 0;
+            top: 0;
+            text-align: center;
+            justify-content: flex-end;
+            align-items: baseline;
+            background: 0 0;
+
+            i {
+                &::before {
+                    position: absolute;
+                    top: 15px;
+                    left: 10px;
+                    color: $brand-white;
+                    font-size: 20px;
+                }
+
+                &::after {
+                    content: '';
+                    display: block;
+                    border-style: solid;
+                    border-width: 0 0 70px 70px;
+                    border-color: transparent transparent transparent rgba($brand-ocean-green, 0.8);
+                }
+            }
+        }
+    }
+}

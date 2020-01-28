@@ -1,0 +1,21 @@
+button,
+a,
+input {
+  outline: none;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+body,
+html {
+  direction: rtl;
+  overflow-x: hidden;
+  text-align: right;
+
+  [mode=dark-mode] & {
+    background-color: $brand-haiti;
+  }
+}
